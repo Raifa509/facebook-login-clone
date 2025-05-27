@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+#body-container {
+    background-color: #f2f4f7;
+    height: 77vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top:191px;
+}
+#main-container img{
+    position: relative;
+    top: -107px;
+}
+
+#container{
+    border: 1px solid black;
+    border: none;
+    width:421px;
+    height:305px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dddfe2;
+    border-radius: 8px;
+    background-color: #fff;
+    position: relative;
+    top: -245px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+
+}
+
+#container h3{
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    margin-top: 21px;
+
+}
+
+#input-div{
+    
+    margin: 18px;
+    box-sizing: border-box;
+    margin-top: 24px;
+
+}
+
+#input-div input,button{
+    width: 100%;
+    height: 50px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+
+}
+#input-div input {
+    border: 1px solid #ccc;  /* Light gray border instead of black */
+    outline: none;
+    font-size: 16px;
+    background-color: #fff;
+}
+#input-div input:focus{
+    border: 2px solid black;
+}
+
+#input-div button{
+    width: 100%;
+    height: 45px;
+    padding: 12px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 7px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    font-size:18px;
+    font-weight: 700;
+    cursor: pointer;
+    outline: none;
+
+}
+
+p{
+    margin-left: 77px;
+    margin-top: -8px;
+    color: #1877f2;
+    font-size: 14px;
+
+}
+
+#footer-page{
+
+    margin-top: 130px;
+    margin-left: 250px;
+}
+
+#footer-page ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-page ul li{
+    margin-right: 15px;
+    font-size: 12px;
+    color: rgb(157, 156, 156);
+    cursor: pointer;
+}
+hr{
+    color: rgb(157, 156, 156);
+    margin: 0px 250px;
+}
